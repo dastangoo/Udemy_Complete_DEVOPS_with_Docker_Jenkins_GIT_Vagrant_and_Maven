@@ -1,0 +1,22 @@
+- docker search httpd | less
+- docker pull httpd
+- docker images
+- docker run -d --name mywebserver httpd:latest
+- docker ps 
+- docker exec -it <Container ID> /bin/bash
+- docker port mywebserver
+- docker port <Container ID>
+- docker exec -it <Container Name> /bin/bash
+- ps -efa 
+- lsof -i :80
+- docker stop mywebserver
+- docker rm mywebserver
+- docker run -d --name mywebserver -p 8081:80 httpd:latest
+- lsof -Pni :8081
+- curl localhost:8081
+- elinks localhost:8081
+- docker port mywebserver
+- yum install -y elinks
+- chrome.exe --explicitly-allowed-ports=6666
+
+
