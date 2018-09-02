@@ -1,0 +1,25 @@
+- docker help
+- docker -h
+- docker --help
+- docker image --help
+- docker help image
+- docker image -h
+- docker stop --help
+- docker version
+- docker info
+- docker search busybox
+- docker run -it busybox
+- docker ps
+- docker container ps
+- docker ps -a
+- docker container ps -a
+- docker container rm <CONTAINER ID>
+- docker images
+- docker run -it busybox:latest
+- docker run -it busybox:2.0
+- docker start <Container ID>
+- docker ps
+- docker exec -it <Container ID> /bin/sh
+- docker stop <Container ID>
+
+
