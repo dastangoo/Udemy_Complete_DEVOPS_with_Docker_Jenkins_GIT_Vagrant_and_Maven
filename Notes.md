@@ -1,0 +1,17 @@
+- docker run -it --name con1 --rm ubuntu:latest
+- apt-get install -y manpages
+- apt-get install -y man
+- docker ps
+- docker start <CONTAINER>
+- docker stop <CONTAINER>
+- docker commit <CONTAINER> <USER>/<REPO>:<TAG>
+- docker images
+- docker login
+- docker push <USER>/<REPO>:<TAG>
+- docker image rm <IMAGE>
+- docker rm <CONTAINER>
+- docker run -it --name con1 <USER>/<REPO>:<TAG>
+- docker images
+- docker ps -a
+- docker rmi <IMAGE>
+
