@@ -1,0 +1,32 @@
+- docker images
+- docker rmi <IMAGE>
+- docker image rm <IMAGE>
+- docker ps -a
+- docker rm <CONTAINER>
+- docker pull pyton
+- docker run -it --name dev1 python:latest /bin/bash
+- docker commit <CONTAINER> <USER>/<REPO>:<TAG>
+- docker push <USER>/<REPO>:<TAG>
+- docker images
+- docker search ubuntu
+- docker pull ubuntu
+- docker search centos
+- docker pull centos
+- docker rmi <IMAGE>
+- docker rm <CONTAINER>
+- docker run -it --name <CONTAINER> <IMAGE>
+- yum install -y python2-pip
+- pip list
+- pip install network
+- pip search network
+- pip show network
+- pip search ipython
+- pip install ipython
+- pip show ipython
+- pip install --upgrade pip
+- pip list
+- pip list | egrep '(network|ipython)'
+- docker start <CONTAINER>
+- docker exec -it <CONTAINER> <COMMAND>
+- docker commit <CONTAINER> <USER>/<REPO>:<TAG>
+- docker push <USER>/<REPO>:<TAG>
