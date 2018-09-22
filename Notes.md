@@ -1,0 +1,26 @@
+- docker network ls
+- ip a s docker0
+- dockeer run -it -d --network=none --name node6 ubuntu:latest /bin/bash
+- docker exec -it node6 /bin/bash
+- docekr network list
+- brctl show
+- rpm -qf $(which brctl)
+- iptables -L
+- iptables -nvL
+- iptables -t nat -L
+- iptables -t nat -nvL
+- docker container ls -a
+- docker stats node1
+- docker rm node5
+- docker rm node3 node5
+- docker images
+- docker image ls
+- docker run -it -d --name node3 centos:latest
+- docker exec -it node3 /bin/bash
+- docker ps
+- ip a
+- brctl show
+- docker run -it -d --network=none --name node5 centos:latest
+- docker ps
+
+
