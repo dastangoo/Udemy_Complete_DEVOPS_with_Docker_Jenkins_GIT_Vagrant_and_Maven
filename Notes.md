@@ -20,4 +20,28 @@
 - /etc/init.d/ssh restart
 - w
 - who
+- systemctl unmaks iptables
+- systemctl enable --now iptables
+- systemctl status iptables
+- iptables -L
+- cat /etc/sysconfig/iptables
+- iptables -F
+- iptables -P INPUT ACCEPT
+- iptables -P OUTPUT ACCEPT
+- iptables -P FORWARD ACCEPT
+- iptables-save > /etc/sysconfig/iptables
+- cat /etc/sysconfig/iptables
+- docker start node1
+- docker run -it --name node1 -p 2222:22 ubuntu:latest /bin/bash
+- apt-get install -y manpages
+- apt-get install -y man
+- apt-get install -y bash-completion
+- passwd
+- docker start node1 
+- vim /etc/ssh/sshd_config
+- /etc/init.d/ssh restart
+- /etc/init.d/ssh status
+- ssh -p 2222 192.168.56.102
+- lsof -Pni:2222
+- netstat -tulpen | grep 2222
 
