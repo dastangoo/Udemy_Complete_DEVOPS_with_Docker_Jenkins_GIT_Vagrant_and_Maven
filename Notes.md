@@ -1,0 +1,23 @@
+- iptables -L
+- iptables-save > before
+- docker start <CONTAINER>
+- iptables-save > after
+- diff before after
+- docker run -it --name node1 -p 2222:222 centos:latest /bin/bash
+- iptables -nvL
+- apt-get update -y
+- apt-get install -y net-tools
+- apt-get install -y iproute2
+- apg-get install -y iputils-ping
+- dpkg -S $(which ip)
+- apt-get install -y openssh-server
+- apt-get install -y vim
+- ip r l
+- ip r s
+- ip r
+- /etc/init.d/ssh start
+- /etc/init.d/ssh status
+- /etc/init.d/ssh restart
+- w
+- who
+
