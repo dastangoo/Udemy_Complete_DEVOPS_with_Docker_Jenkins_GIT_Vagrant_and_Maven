@@ -1,0 +1,5 @@
+- docker service create --replicas 1 --name hello-world ping docker.com
+- docker service rm hello-world
+- docker service ls
+- docker ps
+- docker service rm demo1
