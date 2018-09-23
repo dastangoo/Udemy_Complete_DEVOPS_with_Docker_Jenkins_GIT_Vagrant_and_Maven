@@ -1,0 +1,11 @@
+- zypper se docker
+- zypper in -y docker
+- systemctl disable --now firewalld
+- cat /etc/os-release
+- uname -r
+- ufw disable
+- systemctl stop ufw
+- systemctl disable ufw
+- systemctl enable --now docker
+- systemctl status docker
+
