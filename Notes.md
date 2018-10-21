@@ -1,0 +1,4 @@
+```
+java -version
+maven -version
+```
